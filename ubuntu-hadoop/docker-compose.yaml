@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  datanode-1:
+    image: hadoop-3.3.6:latest
+    restart: always
+    volumes:
+      - /Users/dsilvamarsh/workspace/data/hdfs1:/opt/hdfs
+      - /Users/dsilvamarsh/Documents/git/docker-base-images/ubuntu-hadoop/config:/opt/hadoop-3.3.6/etc/hadoop
+    networks:
+      - dw-default-network
+networks:
+  dw-default-network:
+    driver: bridge 
