@@ -1,4 +1,4 @@
-FROM ubuntu-jre8:latest
+FROM dsilvamarsh/ubuntu-jre8:latest
 
 LABEL maintainer="dsilvamarsh92@gmail.com"
 LABEL image="ubuntu-hadoop-"

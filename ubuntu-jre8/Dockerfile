@@ -1,4 +1,4 @@
-FROM ubuntu-base:latest
+FROM dsilvamarsh/ubuntu-base:latest
 LABEL maintainer="dsilvamarsh92@gmail.com"
 LABEL image="ubuntu-jre8-headless"
 
